@@ -1,0 +1,47 @@
+[
+  {
+    "truth_id": "GT-000001",
+    "issue_type": "OVERLAPPING_STATES",
+    "machine_id": "M-01-01",
+    "order_id": "PO-2026-000001",
+    "evidence_ids": "[\"EVT-M-01-01-000003\", \"EVT-M-01-01-000099\"]",
+    "expected_decision": "EXCLUDE_OVERLAP_AND_REVIEW",
+    "injected_at": "2026-10-22 00:00:00"
+  },
+  {
+    "truth_id": "GT-000002",
+    "issue_type": "COUNT_DECREASE",
+    "machine_id": "M-01-01",
+    "order_id": "PO-2026-000007",
+    "evidence_ids": "[\"CNT-PO-2026-000007-000031\", \"CNT-PO-2026-000007-000006\"]",
+    "expected_decision": "EXCLUDE_DELTA_REQUEST_CORRECTION",
+    "injected_at": "2026-10-22 00:00:00"
+  },
+  {
+    "truth_id": "GT-000003",
+    "issue_type": "SCRAP_EXCEEDS_TOTAL",
+    "machine_id": "M-01-02",
+    "order_id": "PO-2026-000023",
+    "evidence_ids": "[\"QC-2026-000539\"]",
+    "expected_decision": "QUARANTINE_QUALITY_AND_REVIEW",
+    "injected_at": "2026-10-22 00:00:00"
+  },
+  {
+    "truth_id": "GT-000004",
+    "issue_type": "WRONG_CYCLE_TIME",
+    "machine_id": "M-01-02",
+    "order_id": "PO-2026-000014",
+    "evidence_ids": "[\"CFG-M-01-02-PROD-003-2\", \"PO-2026-000014\"]",
+    "expected_decision": "REVIEW_IDEAL_CYCLE_TIME",
+    "injected_at": "2026-10-22 00:00:00"
+  },
+  {
+    "truth_id": "GT-000005",
+    "issue_type": "DOWNTIME_IN_PLANNED_BREAK",
+    "machine_id": "M-01-02",
+    "order_id": "PO-2026-000017",
+    "evidence_ids": "[\"EVT-M-01-02-000129\", \"PBRK-SHIFT-2026-01-02-A-2\"]",
+    "expected_decision": "TREAT_AS_PLANNED_BREAK",
+    "injected_at": "2026-10-22 00:00:00"
+  }
+]

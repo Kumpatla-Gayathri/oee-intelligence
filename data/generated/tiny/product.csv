@@ -1,0 +1,4 @@
+product_id,name,unit,status
+PROD-001,Product 001,pcs,ACTIVE
+PROD-002,Product 002,pcs,ACTIVE
+PROD-003,Product 003,pcs,ACTIVE

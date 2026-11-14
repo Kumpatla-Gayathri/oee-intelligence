@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YottaFlex OEE Intelligence</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>YottaFlex OEE Intelligence</h1>
+  <nav>
+    <button data-tab="dashboard" class="active">Dashboard</button>
+    <button data-tab="alerts">Alerts</button>
+    <button data-tab="investigations">Investigations</button>
+    <button data-tab="warnings">Data quality</button>
+  </nav>
+  <span id="source" class="muted"></span>
+</header>
+<div id="error" class="error" hidden></div>
+
+<section id="tab-dashboard">
+  <div class="filters">
+    From <input type="date" id="date-from"> To <input type="date" id="date-to">
+    <button id="dash-refresh">Refresh</button>
+  </div>
+  <div id="kpi-cards" class="cards"></div>
+  <h2>By line</h2>
+  <table id="line-table"><thead><tr><th>Line</th><th>Availability</th><th>Performance</th><th>Quality</th><th>OEE</th><th>Machine-shifts</th><th>Status</th></tr></thead><tbody></tbody></table>
+</section>
+
+<section id="tab-alerts" hidden>
+  <div class="filters">
+    Severity <select id="f-severity"><option value="">all</option><option>HIGH</option><option>MEDIUM</option><option>LOW</option></select>
+    Type <select id="f-type"><option value="">all</option><option>AVAILABILITY_DROP</option><option>PERFORMANCE_DROP</option><option>QUALITY_DROP</option></select>
+    Machine <input id="f-machine" placeholder="e.g. M-01-01" size="10">
+    <button id="alerts-refresh">Apply</button> <span id="alerts-count" class="muted"></span>
+  </div>
+  <div class="split">
+    <table id="alert-table"><thead><tr><th>Severity</th><th>Type</th><th>Machine</th><th>Shift</th><th>KPI</th><th>Measured</th><th>Baseline</th></tr></thead><tbody></tbody></table>
+    <div id="alert-detail" class="panel"><p class="muted">Select an alert to see its explanation and evidence.</p></div>
+  </div>
+</section>
+
+<section id="tab-investigations" hidden>
+  <div class="filters">
+    Status <select id="inv-filter"><option value="">all</option><option>OPEN</option><option>IN_PROGRESS</option><option>RESOLVED</option></select>
+    <button id="inv-refresh">Refresh</button> <span id="inv-count" class="muted"></span>
+  </div>
+  <div class="split">
+    <table id="inv-table"><thead><tr><th>ID</th><th>Status</th><th>Owner</th><th>Alert</th><th>Machine</th><th>Shift</th><th>Severity</th></tr></thead><tbody></tbody></table>
+    <div id="inv-detail" class="panel"><p class="muted">Select an investigation.</p></div>
+  </div>
+</section>
+
+<section id="tab-warnings" hidden>
+  <p class="muted">Data-quality warnings are source-data problems (not operational alerts).</p>
+  <table id="warn-table"><thead><tr><th>Severity</th><th>Issue</th><th>Machine</th><th>Shift</th><th>Explanation</th><th>Evidence</th><th>Expected decision</th></tr></thead><tbody></tbody></table>
+</section>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+shift_id,plant_id,code,name,start_time,end_time,crosses_midnight
+SHIFTDEF-A,PLANT-01,A,Shift A,06:00:00,14:00:00,False
+SHIFTDEF-B,PLANT-01,B,Shift B,14:00:00,22:00:00,False
+SHIFTDEF-C,PLANT-01,C,Shift C,22:00:00,06:00:00,True

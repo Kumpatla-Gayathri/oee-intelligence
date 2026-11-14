@@ -1,0 +1,373 @@
+{
+  "machine_shifts": 126,
+  "status_counts": {
+    "OK": 111,
+    "DATA_QUALITY_WARNING": 15
+  },
+  "flag_counts": {
+    "COUNT_DECREASE": 3,
+    "OVERLAPPING_STATES": 3,
+    "SCRAP_EXCEEDS_TOTAL": 3,
+    "DOWNTIME_IN_PLANNED_BREAK": 3,
+    "CONFIG_CONFLICT": 3,
+    "PERFORMANCE_OVER_100": 3
+  },
+  "items": [
+    {
+      "aggregate_id": "AGG-M-01-01-SHIFT-2026-01-04-A",
+      "machine_id": "M-01-01",
+      "shift_instance_id": "SHIFT-2026-01-04-A",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "COUNT_DECREASE"
+      ],
+      "evidence": {
+        "COUNT_DECREASE": [
+          "CNT-PO-2026-000012-000031",
+          "CNT-PO-2026-000012-000014"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-01-01-SHIFT-2026-01-05-A",
+      "machine_id": "M-01-01",
+      "shift_instance_id": "SHIFT-2026-01-05-A",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "OVERLAPPING_STATES"
+      ],
+      "evidence": {
+        "OVERLAPPING_STATES": [
+          "EVT-M-01-01-000166",
+          "EVT-M-01-01-000269"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-01-01-SHIFT-2026-01-05-C",
+      "machine_id": "M-01-01",
+      "shift_instance_id": "SHIFT-2026-01-05-C",
+      "status": "OK",
+      "flags": [],
+      "evidence": {},
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000018-000027-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-01-01-SHIFT-2026-01-07-B",
+      "machine_id": "M-01-01",
+      "shift_instance_id": "SHIFT-2026-01-07-B",
+      "status": "OK",
+      "flags": [],
+      "evidence": {},
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000024-000007-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-01-02-SHIFT-2026-01-01-A",
+      "machine_id": "M-01-02",
+      "shift_instance_id": "SHIFT-2026-01-01-A",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "SCRAP_EXCEEDS_TOTAL"
+      ],
+      "evidence": {
+        "SCRAP_EXCEEDS_TOTAL": [
+          "QC-2026-003767"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-01-02-SHIFT-2026-01-01-B",
+      "machine_id": "M-01-02",
+      "shift_instance_id": "SHIFT-2026-01-01-B",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "COUNT_DECREASE"
+      ],
+      "evidence": {
+        "COUNT_DECREASE": [
+          "CNT-PO-2026-000027-000006",
+          "CNT-PO-2026-000027-000003"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-01-02-SHIFT-2026-01-02-C",
+      "machine_id": "M-01-02",
+      "shift_instance_id": "SHIFT-2026-01-02-C",
+      "status": "OK",
+      "flags": [],
+      "evidence": {},
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000033-000014-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-01-02-SHIFT-2026-01-03-A",
+      "machine_id": "M-01-02",
+      "shift_instance_id": "SHIFT-2026-01-03-A",
+      "status": "OK",
+      "flags": [],
+      "evidence": {},
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000034-000005-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-01-02-SHIFT-2026-01-07-A",
+      "machine_id": "M-01-02",
+      "shift_instance_id": "SHIFT-2026-01-07-A",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "DOWNTIME_IN_PLANNED_BREAK"
+      ],
+      "evidence": {
+        "DOWNTIME_IN_PLANNED_BREAK": [
+          "EVT-M-01-02-000336",
+          "PBRK-SHIFT-2026-01-07-A-2"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-01-02-SHIFT-2026-01-07-B",
+      "machine_id": "M-01-02",
+      "shift_instance_id": "SHIFT-2026-01-07-B",
+      "status": "OK",
+      "flags": [],
+      "evidence": {},
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000047-000022-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-01-03-SHIFT-2026-01-01-B",
+      "machine_id": "M-01-03",
+      "shift_instance_id": "SHIFT-2026-01-01-B",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "CONFIG_CONFLICT",
+        "PERFORMANCE_OVER_100"
+      ],
+      "evidence": {
+        "CONFIG_CONFLICT": [
+          "CFG-M-01-03-PROD-002-1",
+          "CFG-M-01-03-PROD-002-2",
+          "PO-2026-000051"
+        ],
+        "PERFORMANCE_OVER_100": [
+          "PO-2026-000051"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-01-03-SHIFT-2026-01-02-C",
+      "machine_id": "M-01-03",
+      "shift_instance_id": "SHIFT-2026-01-02-C",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "OVERLAPPING_STATES"
+      ],
+      "evidence": {
+        "OVERLAPPING_STATES": [
+          "EVT-M-01-03-000091",
+          "EVT-M-01-03-000292"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-01-03-SHIFT-2026-01-06-C",
+      "machine_id": "M-01-03",
+      "shift_instance_id": "SHIFT-2026-01-06-C",
+      "status": "OK",
+      "flags": [],
+      "evidence": {},
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000073-000007-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-02-01-SHIFT-2026-01-02-C",
+      "machine_id": "M-02-01",
+      "shift_instance_id": "SHIFT-2026-01-02-C",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "DOWNTIME_IN_PLANNED_BREAK"
+      ],
+      "evidence": {
+        "DOWNTIME_IN_PLANNED_BREAK": [
+          "EVT-M-02-01-000244",
+          "PBRK-SHIFT-2026-01-02-C-2"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-02-01-SHIFT-2026-01-03-C",
+      "machine_id": "M-02-01",
+      "shift_instance_id": "SHIFT-2026-01-03-C",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "COUNT_DECREASE"
+      ],
+      "evidence": {
+        "COUNT_DECREASE": [
+          "CNT-PO-2026-000087-000031",
+          "CNT-PO-2026-000087-000023"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-02-01-SHIFT-2026-01-04-C",
+      "machine_id": "M-02-01",
+      "shift_instance_id": "SHIFT-2026-01-04-C",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "OVERLAPPING_STATES"
+      ],
+      "evidence": {
+        "OVERLAPPING_STATES": [
+          "EVT-M-02-01-000118",
+          "EVT-M-02-01-000243"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-02-01-SHIFT-2026-01-05-C",
+      "machine_id": "M-02-01",
+      "shift_instance_id": "SHIFT-2026-01-05-C",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "CONFIG_CONFLICT",
+        "PERFORMANCE_OVER_100"
+      ],
+      "evidence": {
+        "CONFIG_CONFLICT": [
+          "CFG-M-02-01-PROD-002-1",
+          "CFG-M-02-01-PROD-002-2",
+          "PO-2026-000093"
+        ],
+        "PERFORMANCE_OVER_100": [
+          "PO-2026-000093"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-02-01-SHIFT-2026-01-07-C",
+      "machine_id": "M-02-01",
+      "shift_instance_id": "SHIFT-2026-01-07-C",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "CONFIG_CONFLICT",
+        "PERFORMANCE_OVER_100"
+      ],
+      "evidence": {
+        "CONFIG_CONFLICT": [
+          "CFG-M-02-01-PROD-002-1",
+          "CFG-M-02-01-PROD-002-3",
+          "PO-2026-000100"
+        ],
+        "PERFORMANCE_OVER_100": [
+          "PO-2026-000100",
+          "PO-2026-000101"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-02-02-SHIFT-2026-01-02-A",
+      "machine_id": "M-02-02",
+      "shift_instance_id": "SHIFT-2026-01-02-A",
+      "status": "OK",
+      "flags": [],
+      "evidence": {},
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000105-000016-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-02-02-SHIFT-2026-01-05-C",
+      "machine_id": "M-02-02",
+      "shift_instance_id": "SHIFT-2026-01-05-C",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "DOWNTIME_IN_PLANNED_BREAK"
+      ],
+      "evidence": {
+        "DOWNTIME_IN_PLANNED_BREAK": [
+          "EVT-M-02-02-000298",
+          "PBRK-SHIFT-2026-01-05-C-2"
+        ]
+      },
+      "corrections_applied": []
+    },
+    {
+      "aggregate_id": "AGG-M-02-02-SHIFT-2026-01-06-B",
+      "machine_id": "M-02-02",
+      "shift_instance_id": "SHIFT-2026-01-06-B",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "SCRAP_EXCEEDS_TOTAL"
+      ],
+      "evidence": {
+        "SCRAP_EXCEEDS_TOTAL": [
+          "QC-2026-003765"
+        ]
+      },
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000121-000027-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-02-03-SHIFT-2026-01-02-C",
+      "machine_id": "M-02-03",
+      "shift_instance_id": "SHIFT-2026-01-02-C",
+      "status": "OK",
+      "flags": [],
+      "evidence": {},
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000133-000017-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-02-03-SHIFT-2026-01-04-A",
+      "machine_id": "M-02-03",
+      "shift_instance_id": "SHIFT-2026-01-04-A",
+      "status": "OK",
+      "flags": [],
+      "evidence": {},
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000137-000002-1"
+      ]
+    },
+    {
+      "aggregate_id": "AGG-M-02-03-SHIFT-2026-01-06-A",
+      "machine_id": "M-02-03",
+      "shift_instance_id": "SHIFT-2026-01-06-A",
+      "status": "DATA_QUALITY_WARNING",
+      "flags": [
+        "SCRAP_EXCEEDS_TOTAL"
+      ],
+      "evidence": {
+        "SCRAP_EXCEEDS_TOTAL": [
+          "QC-2026-003766"
+        ]
+      },
+      "corrections_applied": [
+        "COR-CNT-PO-2026-000143-000020-1"
+      ]
+    }
+  ]
+}

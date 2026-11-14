@@ -1,0 +1,5 @@
+correction_id,count_id,order_id,corrected_counter_value,reason,created_ts,approved_by
+COR-CNT-PO-2026-000010-000009-1,CNT-PO-2026-000010-000009,PO-2026-000010,212,Counter glitch corrected from line PLC log,2026-01-03 16:30:00,supervisor
+COR-CNT-PO-2026-000014-000005-1,CNT-PO-2026-000014-000005,PO-2026-000014,128,Counter glitch corrected from line PLC log,2026-01-01 15:12:00,supervisor
+COR-CNT-PO-2026-000020-000018-1,CNT-PO-2026-000020-000018,PO-2026-000020,467,Counter glitch corrected from line PLC log,2026-01-03 03:05:00,supervisor
+COR-CNT-PO-2026-000021-000018-1,CNT-PO-2026-000021-000018,PO-2026-000021,449,Counter glitch corrected from line PLC log,2026-01-03 11:05:00,supervisor

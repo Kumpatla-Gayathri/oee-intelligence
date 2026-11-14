@@ -1,0 +1,10 @@
+template_id,shift_id,name,start_offset_min,duration_min
+SBT-A-1,SHIFTDEF-A,Tea break 1,120,10
+SBT-A-2,SHIFTDEF-A,Lunch break,240,30
+SBT-A-3,SHIFTDEF-A,Tea break 2,360,10
+SBT-B-1,SHIFTDEF-B,Tea break 1,120,10
+SBT-B-2,SHIFTDEF-B,Lunch break,240,30
+SBT-B-3,SHIFTDEF-B,Tea break 2,360,10
+SBT-C-1,SHIFTDEF-C,Tea break 1,120,10
+SBT-C-2,SHIFTDEF-C,Lunch break,240,30
+SBT-C-3,SHIFTDEF-C,Tea break 2,360,10

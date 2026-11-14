@@ -1,0 +1,9 @@
+reason_id,code,description,category
+RSN-001,MICRO_JAM,Material jam (micro-stop),PERFORMANCE_LOSS
+RSN-002,MICRO_SENSOR,Sensor blocked (micro-stop),PERFORMANCE_LOSS
+RSN-003,CHANGEOVER,Product changeover,PLANNED
+RSN-004,MECH_FAILURE,Mechanical failure,UNPLANNED
+RSN-005,ELEC_FAULT,Electrical fault,UNPLANNED
+RSN-006,NO_MATERIAL,Waiting for material,UNPLANNED
+RSN-007,NO_OPERATOR,No operator available,UNPLANNED
+RSN-008,PLANNED_MAINT,Planned maintenance,PLANNED

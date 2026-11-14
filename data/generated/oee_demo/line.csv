@@ -1,0 +1,3 @@
+line_id,plant_id,name,status
+LINE-01,PLANT-01,Line 1,ACTIVE
+LINE-02,PLANT-01,Line 2,ACTIVE
