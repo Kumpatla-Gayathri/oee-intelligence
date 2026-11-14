@@ -5,6 +5,15 @@
 An end-to-end application for calculating and monitoring Overall Equipment Effectiveness (OEE).
 
 
+## Live Demo
+
+**Live Application:** https://oee-intelligence-1.onrender.com/
+
+**API Documentation:** https://oee-intelligence-1.onrender.com/docs
+
+**GitHub Repository:** https://github.com/Kumpatla-Gayathri/oee-intelligence
+
+
 
 \## Features
 
