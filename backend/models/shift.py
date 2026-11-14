@@ -59,3 +59,4 @@ class PlannedBreak(Base):
     end_ts: Mapped[datetime]
     shift_instance: Mapped[ShiftInstance] = relationship(back_populates="planned_breaks")
     __table_args__ = (CheckConstraint("end_ts > start_ts"),)
+
