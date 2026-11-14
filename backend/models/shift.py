@@ -1,10 +1,4 @@
-$src = "C:\Users\Gayathri\OneDrive\Desktop\oee-intelligence\oee-intelligence"
-$zip = "C:\Users\Gayathri\OneDrive\Desktop\oee-intelligence-final-clean.zip"
-$files = Get-ChildItem $src -Recurse -File -Force | Where-Object {
-    $_.FullName -notmatch '\\(__pycache__|\.pytest_cache|\.venv)\\' -and
-    $_.Name -notmatch '\.pyc$'
-}
-Compress-Archive -Path $files.FullName -DestinationPath $zip -Forcefrom datetime import date, datetime, time
+from datetime import date, datetime, time
 from sqlalchemy import CheckConstraint, ForeignKey, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from backend.database import Base
