@@ -69,7 +69,7 @@ An end-to-end application for calculating and monitoring Overall Equipment Effec
 
 pip install -r requirements.txt
 
-$env:DATABASE\_URL = "sqlite:///data/oee\_demo.db"
+$env:DATABASE_URL = "sqlite:///data/oee\_demo.db"
 
 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 
